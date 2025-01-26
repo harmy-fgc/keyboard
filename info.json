@@ -11,14 +11,14 @@
     "processor": "RP2040",
     "bootloader": "rp2040",
     "diode_direction": "ROW2COL",
+    "matrix_pins": {
+        "cols": ["GP29","GP28","GP27","GP26","GP15"],
+        "rows": ["GP4", "GP5", "GP6"],
+    },
     "split": {
         "soft_serial_pin": "GP1",
         "bootmagic": {
             "matrix": [0, 0]
-    },
-    "matrix_pins": {
-        "cols": ["GP29","GP28","GP27","GP26","GP15"],
-        "rows": ["GP4", "GP5", "GP6"]
     },
     "layouts": {
         "LAYOUT": {
