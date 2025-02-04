@@ -18,7 +18,16 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+
 #pragma once
 
-/* Select hand configuration */
-#define EE_HANDS
+#define EE_HANDS // Store which side I am in EEPROM
+#define MASTER_RIGHT
+
+/* Keyboard matrix assignments */
+#define MATRIX_ROW_PINS { GP26, GP27, GP28, GP29, }
+#define MATRIX_COL_PINS { GP8, GP7, GP6, GP5, GP4, GP3, }
+
+#define SERIAL_DEBUG
+
+#define SERIAL_USART_TX_PIN GP1
