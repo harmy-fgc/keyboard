@@ -9,27 +9,18 @@
         "device_version": "0.0.1"
     },
     "features": {
-        "bootmagic": false,
+        "bootmagic": true,
         "command": true,
-        "console": false,
-        "extrakey": true,
-        "mousekey": true,
-        "nkro": false
-    },
-    "qmk": {
-        "locking": {
-            "enabled": true,
-            "resync": true
-        }
+        "console": true,
+        "mousekey": true
     },
     "matrix_pins": {
         "cols": ["GP8", "GP7", "GP6", "GP5", "GP4", "GP3"],
-        "rows": ["GP26", "GP27", "GP28", "GP29"],
+        "rows": ["GP26", "GP27", "GP28", "GP29"]
     },
     "diode_direction": "ROW2COL",
     "split": {
-        "enabled": true,
-        "soft_serial_pin": "D0"
+        "enabled": true
     },
     "processor": "RP2040",
     "bootloader": "rp2040",

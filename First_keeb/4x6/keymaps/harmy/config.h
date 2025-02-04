@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 /*
 This is the c configuration file for the keymap
 
@@ -31,9 +20,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define EE_HANDS // Store which side I am in EEPROM
-
-/* Keyboard matrix assignments */
-#define MATRIX_ROW_PINS { GP26, GP27, GP28, GP29, }
-#define MATRIX_COL_PINS { GP8, GP7, GP6, GP5, GP4, GP3, }
-
+/* Select hand configuration */
+#define EE_HANDS

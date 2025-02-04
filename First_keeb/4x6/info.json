@@ -1,11 +1,11 @@
 {
     "keyboard_name": "first_keeb",
     "manufacturer": "harmy",
-    "url": "ryanis.cool",
-    "maintainer": "rianadon",
+    "url": "",
+    "maintainer": "harmy",
     "usb": {
         "vid": "0x444D",
-        "pid": "0x3436",
+        "pid": "0x3435",
         "device_version": "0.0.1"
     },
     "processor": "RP2040",
