@@ -25,3 +25,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 #define SERIAL_USART_TX_PIN GP1
+
+#define BOOTMAGIC_ROW 6
+#define BOOTMAGIC_COLUMN 5
