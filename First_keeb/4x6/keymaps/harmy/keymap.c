@@ -3,8 +3,6 @@
 
 #include QMK_KEYBOARD_H
 
-#include QMK_KEYBOARD_H
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
         KC_0,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,        // Row 1: 0-5
@@ -13,7 +11,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_I,    KC_J,    KC_K,    KC_L,    KC_M,    KC_N,        // Row 4: I-N
         KC_O,    KC_P,    KC_Q,    KC_R,    KC_S,    KC_T,        // Row 5: O-T
         KC_U,    KC_V,    KC_W,    KC_X,    KC_Y,    KC_Z,        // Row 6: U-Z
-        KC_TAB,  KC_ENTER, KC_SPACE, KC_BSPC, KC_DEL, KC_NO         // Row 7: Other keys
+        KC_TAB,  KC_ENTER, KC_SPACE, KC_BSPC, KC_DEL, KC_KP_1,
+        KC_KP_2,  KC_KP_3,  KC_KP_4,  KC_KP_5         // Row 7: Other keys
     )
 };
 
