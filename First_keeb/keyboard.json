@@ -19,12 +19,13 @@
     "split": {
         "enabled": true, 
         "serial": {
-                "driver": "vendor"
+                "driver": "vendor",
+                "pin": "GP1"
             },
-        "split_serial_pin": "GP1",   
         "bootmagic": {
             "matrix": [6, 5]
-    }},
+        }
+    },
     "features": {
         "bootmagic": true,
         "command": true,
@@ -84,4 +85,4 @@
                   }                  
             }
         }
-
+    

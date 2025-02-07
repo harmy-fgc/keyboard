@@ -1,3 +1,2 @@
 VIA_ENABLE = yes
 CONSOLE_ENABLE = yes
-SERIAL_DRIVER = vendor
