@@ -23,6 +23,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define EE_HANDS // Store which side I am in EEPROM
 
-/* Keyboard matrix assignments */
 
 #define SERIAL_USART_TX_PIN GP1
+
+#define BOOTMAGIC_ROW 6
+#define BOOTMAGIC_COLUMN 5
+
+#define SPLIT_WATCHDOG_ENABLE
+
+#define MASTER_RIGHT
